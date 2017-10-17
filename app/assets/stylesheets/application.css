@@ -13,3 +13,78 @@
  *= require_tree .
  *= require_self
  */
+
+/* For the entire pages */
+body {
+	background-color: white;
+	color: black;
+	margin: 0; padding: 0;
+	font-family: Meiryo, san-serif;
+}
+
+/* For links */
+a: link { color: #00c; }
+a: visited { color: #00c; }
+a: hover { color: #ccf; }
+a img { border: non; }
+
+/* For blocks */
+p, h1, h2, h3, table, ul {
+  margin: 0 0 1em;
+}
+
+/* For the frames */
+div#container {
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 780px;
+}
+
+/* Content (left) */
+div#content {
+	float: left;
+	widht: 530px;
+	padding: 10px 10px 10px 0;
+}
+
+/* Sidebar (right) */
+div#sidebar {
+	float: left;
+	width: 230px;
+	background-color: #e8ffff;
+	padding: 5px;
+	font-size: 86%;
+}
+
+/* Header */
+div#header {
+  border-top: 4px solid #6bb;
+}
+
+/* Footer */
+div#footer {
+  clear: both;
+  font: 11px Verdana;
+  color: #888;
+  padding: 8px 0;
+  border-top: 4px solid #6bb;
+  text-align: center;
+}
+
+/* Menubar */
+div.menubar {
+  padding: 2px;
+  background-color: #000;
+  color: #ccc;
+  font-size: 80%;
+  padding: 8px 16px;
+}
+
+/* Menubar links */
+div.menubar a { text-decoration: none; }
+
+/* Menubar links (unvisited) */
+div.menubar a:link { color: #ccc; }
+
+/* Menubar links (visited) */
+div.menubar a:visited { color: #ccc; }
